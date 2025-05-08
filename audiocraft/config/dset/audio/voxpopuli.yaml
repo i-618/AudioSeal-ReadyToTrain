@@ -1,0 +1,10 @@
+# @package __global__
+
+datasource:
+  max_sample_rate: 16000
+  max_channels: 1
+
+  train: egs/voxpopuli
+  valid: egs/voxpopuli
+  evaluate: egs/voxpopuli
+  generate: egs/voxpopuli
